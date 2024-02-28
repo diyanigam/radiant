@@ -1,0 +1,44 @@
+body{
+    background-color: #FBFCFD;
+}
+.main {
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .header {
+    width: 65%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    display: flex;
+    width: 65%;
+    margin: auto;
+    flex-direction: column;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .signup-bar {
+    display: flex;
+    width: 65%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .deal-cards {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  h1, h2{
+    width: 65%;
+    margin: auto;
+  }
